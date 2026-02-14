@@ -101,7 +101,8 @@ def main() -> None:
     st.write('Design Note')
     st.write("""
         This dashboard is intended for the City of New York workers.
-        With this dashboard, they can identify the most common complaints and the median response time (days).
+        You can filter the data by borough as well as channel (app,phone,web). Additionally, you can compare by different complaint types.
+        With this dashboard, employees can identify the most common complaints and the median response time (days).
         This information can answer questions around staffing and identifying complaint trends by boroughs.
     """ )
     # -------------------------
