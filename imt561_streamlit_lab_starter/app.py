@@ -27,7 +27,7 @@ def main() -> None:
     st.caption("Starter app for IMT 561 lab: layouts + filters + coordinated views.")
 
     # ✅ Data loading (cached)
-    df = load_data("data/sample.csv")
+    df = load_data("./data/sample.csv")
 
     # -------------------------
     # TODO (DEMO): Add a quick 'data sanity' check
