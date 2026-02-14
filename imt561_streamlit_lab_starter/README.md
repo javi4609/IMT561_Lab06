@@ -1,22 +1,12 @@
-# IMT 561 Streamlit Lab Starter
+# Read Me Description
+This dashboard is intended for the City of New York workers.
+You can filter the data by borough as well as channel (app,phone,web). Additionally, you can compare by different complaint types.
+With this dashboard, employees can identify the most common complaints and the median response time (days).
+This information can answer questions around staffing and identifying complaint trends by boroughs.
 
-This repository is intentionally incomplete. It is designed for a guided live build during lab and then extended during the in-class activity and follow-up assignment.
 
-## Quickstart
-```bash
-python -m venv .venv
-source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
-pip install -r requirements.txt
-streamlit run app.py
-```
+## Streamlit Deploy Link
+https://imt561lab06-n9jhzbla3w3ltbazchcarw.streamlit.app/
 
-## What you will do in the lab
-- Build a layout (tabs or 2 columns)
-- Add filters that modify a shared dataframe
-- Wire up at least 1 Plotly chart
-- Add metrics and additional views as an extension
-
-## Submission (for students)
-- Streamlit deployed link
-- GitHub repo link
-- Short README describing audience + tasks
+## Github Repo Link
+https://github.com/javi4609/IMT561_Lab06
